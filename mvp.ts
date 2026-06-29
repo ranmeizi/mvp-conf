@@ -56,6 +56,7 @@ export type MvpConfig = {
   >;
 };
 
+// @ts-ignore
 const UNKNOWN = {
   time_lower: min(120),
   time_upper: min(180),
