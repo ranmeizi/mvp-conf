@@ -36,6 +36,8 @@ export enum EnumMvpIndex {
   KielD01 = '1734',
   Detale = '1719',
   ValkyrieRandgris = '1751',
+  Atroce = '1785',
+  GloomUnderNight = '1768'
 }
 
 /** mvp 配置数据 */
@@ -75,7 +77,7 @@ export type MvpDeathNote = {
   map: string; // 地图
 };
 
-const config: Record<EnumMvpIndex, MvpConfig> = {
+const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 埃及王
   [EnumMvpIndex.AmonRa]: {
     id: EnumMvpIndex.AmonRa,
@@ -527,96 +529,96 @@ const config: Record<EnumMvpIndex, MvpConfig> = {
       },
     },
   },
-  [EnumMvpIndex.LordKnightSeyren]: {
-    id: EnumMvpIndex.LordKnightSeyren,
-    name_EN: 'Lord Knight Seyren',
-    name_CN: '暗●骑士领主 赛依连',
-    name_map: 'Lord Knight Seyren',
-    name_momo: 'Lord Knight Seyren',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1646.gif',
-    credibility: true,
-    respawn_map: {
-      lhz_dun03: {
-        time_lower: min(120),
-        time_upper: min(130),
-      },
-    },
-  },
-  [EnumMvpIndex.AssassinCrossEremes]: {
-    id: EnumMvpIndex.AssassinCrossEremes,
-    name_EN: 'Assassin Cross Eremes',
-    name_CN: '暗●十字刺客 艾勒梅斯',
-    name_map: 'Assassin Cross Eremes',
-    name_momo: 'Assassin Cross Eremes',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1647.gif',
-    credibility: true,
-    respawn_map: {
-      lhz_dun03: {
-        time_lower: min(100),
-        time_upper: min(130),
-      },
-    },
-  },
-  [EnumMvpIndex.WhitesmithHarword]: {
-    id: EnumMvpIndex.WhitesmithHarword,
-    name_EN: 'Whitesmith Harword',
-    name_CN: '暗●神工匠 哈沃得',
-    name_map: 'Whitesmith Harword',
-    name_momo: 'Whitesmith Harword',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1648.gif',
-    credibility: true,
-    respawn_map: {
-      lhz_dun03: {
-        time_lower: min(100),
-        time_upper: min(130),
-      },
-    },
-  },
-  [EnumMvpIndex.HighPriestMagaleta]: {
-    id: EnumMvpIndex.HighPriestMagaleta,
-    name_EN: 'High Priest Magaleta',
-    name_CN: '暗●神官 玛嘉雷特',
-    name_map: 'High Priest Magaleta',
-    name_momo: 'High Priest Magaleta',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1649.gif',
-    credibility: true,
-    respawn_map: {
-      lhz_dun03: {
-        time_lower: min(100),
-        time_upper: min(130),
-      },
-    },
-  },
-  [EnumMvpIndex.SniperShecil]: {
-    id: EnumMvpIndex.SniperShecil,
-    name_EN: 'Sniper Shecil',
-    name_CN: '暗●神射手 迪文',
-    name_map: 'Sniper Shecil',
-    name_momo: 'Sniper Shecil',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1650.gif',
-    credibility: true,
-    respawn_map: {
-      lhz_dun03: {
-        time_lower: min(100),
-        time_upper: min(130),
-      },
-    },
-  },
-  [EnumMvpIndex.HighWizardKatrinn]: {
-    id: EnumMvpIndex.HighWizardKatrinn,
-    name_EN: 'High Wizard Katrinn',
-    name_CN: '暗●超魔导师 凯特莉娜',
-    name_map: 'High Wizard Katrinn',
-    name_momo: 'High Wizard Katrinn',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1651.gif',
-    credibility: true,
-    respawn_map: {
-      lhz_dun03: {
-        time_lower: min(100),
-        time_upper: min(130),
-      },
-    },
-  },
+  // [EnumMvpIndex.LordKnightSeyren]: {
+  //   id: EnumMvpIndex.LordKnightSeyren,
+  //   name_EN: 'Lord Knight Seyren',
+  //   name_CN: '暗●骑士领主 赛依连',
+  //   name_map: 'Lord Knight Seyren',
+  //   name_momo: 'Lord Knight Seyren',
+  //   imgUrl: 'https://file5s.ratemyserver.net/mobs/1646.gif',
+  //   credibility: true,
+  //   respawn_map: {
+  //     lhz_dun03: {
+  //       time_lower: min(120),
+  //       time_upper: min(130),
+  //     },
+  //   },
+  // },
+  // [EnumMvpIndex.AssassinCrossEremes]: {
+  //   id: EnumMvpIndex.AssassinCrossEremes,
+  //   name_EN: 'Assassin Cross Eremes',
+  //   name_CN: '暗●十字刺客 艾勒梅斯',
+  //   name_map: 'Assassin Cross Eremes',
+  //   name_momo: 'Assassin Cross Eremes',
+  //   imgUrl: 'https://file5s.ratemyserver.net/mobs/1647.gif',
+  //   credibility: true,
+  //   respawn_map: {
+  //     lhz_dun03: {
+  //       time_lower: min(100),
+  //       time_upper: min(130),
+  //     },
+  //   },
+  // },
+  // [EnumMvpIndex.WhitesmithHarword]: {
+  //   id: EnumMvpIndex.WhitesmithHarword,
+  //   name_EN: 'Whitesmith Harword',
+  //   name_CN: '暗●神工匠 哈沃得',
+  //   name_map: 'Whitesmith Harword',
+  //   name_momo: 'Whitesmith Harword',
+  //   imgUrl: 'https://file5s.ratemyserver.net/mobs/1648.gif',
+  //   credibility: true,
+  //   respawn_map: {
+  //     lhz_dun03: {
+  //       time_lower: min(100),
+  //       time_upper: min(130),
+  //     },
+  //   },
+  // },
+  // [EnumMvpIndex.HighPriestMagaleta]: {
+  //   id: EnumMvpIndex.HighPriestMagaleta,
+  //   name_EN: 'High Priest Magaleta',
+  //   name_CN: '暗●神官 玛嘉雷特',
+  //   name_map: 'High Priest Magaleta',
+  //   name_momo: 'High Priest Magaleta',
+  //   imgUrl: 'https://file5s.ratemyserver.net/mobs/1649.gif',
+  //   credibility: true,
+  //   respawn_map: {
+  //     lhz_dun03: {
+  //       time_lower: min(100),
+  //       time_upper: min(130),
+  //     },
+  //   },
+  // },
+  // [EnumMvpIndex.SniperShecil]: {
+  //   id: EnumMvpIndex.SniperShecil,
+  //   name_EN: 'Sniper Shecil',
+  //   name_CN: '暗●神射手 迪文',
+  //   name_map: 'Sniper Shecil',
+  //   name_momo: 'Sniper Shecil',
+  //   imgUrl: 'https://file5s.ratemyserver.net/mobs/1650.gif',
+  //   credibility: true,
+  //   respawn_map: {
+  //     lhz_dun03: {
+  //       time_lower: min(100),
+  //       time_upper: min(130),
+  //     },
+  //   },
+  // },
+  // [EnumMvpIndex.HighWizardKatrinn]: {
+  //   id: EnumMvpIndex.HighWizardKatrinn,
+  //   name_EN: 'High Wizard Katrinn',
+  //   name_CN: '暗●超魔导师 凯特莉娜',
+  //   name_map: 'High Wizard Katrinn',
+  //   name_momo: 'High Wizard Katrinn',
+  //   imgUrl: 'https://file5s.ratemyserver.net/mobs/1651.gif',
+  //   credibility: true,
+  //   respawn_map: {
+  //     lhz_dun03: {
+  //       time_lower: min(100),
+  //       time_upper: min(130),
+  //     },
+  //   },
+  // },
   [EnumMvpIndex.KielD01]: {
     id: EnumMvpIndex.KielD01,
     name_EN: 'Kiel D-01',
@@ -659,6 +661,52 @@ const config: Record<EnumMvpIndex, MvpConfig> = {
       odin_tem03: {
         time_lower: min(480),
         time_upper: min(490),
+      },
+    },
+  },
+  [EnumMvpIndex.Atroce]: {
+    id: EnumMvpIndex.Atroce,
+    name_EN: 'Atroce',
+    name_CN: '阿特罗斯',
+    name_map: 'Atroce',
+    name_momo: 'Atroce',
+    imgUrl: 'https://file5s.ratemyserver.net/mobs/1785.gif',
+    credibility: true,
+    respawn_map: {
+      ra_fild02: {
+        time_lower: min(240),
+        time_upper: min(250),
+      },
+      ra_fild03: {
+        time_lower: min(180),
+        time_upper: min(190),
+      },
+      ra_fild04:{
+        time_lower: min(300),
+        time_upper: min(310),
+      },
+      ve_fild01:{
+        time_lower: min(180),
+        time_upper: min(190),
+      },
+      ve_fild02:{
+        time_lower: min(360),
+        time_upper: min(370),
+      },
+    },
+  },
+  [EnumMvpIndex.GloomUnderNight]: {
+    id: EnumMvpIndex.GloomUnderNight,
+    name_EN: 'Gloom Under Night',
+    name_CN: '影魔',
+    name_map: 'Gloom Under Night',
+    name_momo: 'Gloom Under Night',
+    imgUrl: 'https://file5s.ratemyserver.net/mobs/1768.gif',
+    credibility: true,
+    respawn_map: {
+      ra_san05: {
+        time_lower: min(300),
+        time_upper: min(310),
       },
     },
   },
