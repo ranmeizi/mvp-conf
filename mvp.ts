@@ -1,43 +1,43 @@
 export enum EnumMvpIndex {
-  AmonRa = '1511',
-  Baphomet = '1039',
-  DarkLord = '1272',
-  Doppelganger = '1046',
-  Dracula = '1389',
-  Drake = '1112',
-  Eddga = '1115',
-  Garm = '1252',
-  GoldenThiefBug = '1086',
-  KnightOfWindstorm = '1251',
-  Maya = '1147',
-  Mistress = '1059',
-  MoonlightFlower = '1150',
-  OrcHero = '1087',
-  OrcLord = '1190',
-  Osiris = '1038',
-  Pharaoh = '1157',
-  Phreeoni = '1159',
-  TurtleGeneral = '1312',
-  EvilSnakeLord = '1418',
-  TaoGunka = '1583',
-  Vesper = '1685',
-  SamuraiSpecter = '1492',
-  WhiteLady = '1630',
-  RSX0806 = '1623',
-  LadyTanee = '1688',
-  EgnigemCenia = '1658',
-  LordKnightSeyren = '1646',
-  AssassinCrossEremes = '1647',
-  WhitesmithHarword = '1648',
-  HighPriestMagaleta = '1649',
-  SniperShecil = '1650',
-  HighWizardKatrinn = '1651',
+  AmonRa = "1511",
+  Baphomet = "1039",
+  DarkLord = "1272",
+  Doppelganger = "1046",
+  Dracula = "1389",
+  Drake = "1112",
+  Eddga = "1115",
+  Garm = "1252",
+  GoldenThiefBug = "1086",
+  KnightOfWindstorm = "1251",
+  Maya = "1147",
+  Mistress = "1059",
+  MoonlightFlower = "1150",
+  OrcHero = "1087",
+  OrcLord = "1190",
+  Osiris = "1038",
+  Pharaoh = "1157",
+  Phreeoni = "1159",
+  TurtleGeneral = "1312",
+  EvilSnakeLord = "1418",
+  TaoGunka = "1583",
+  Vesper = "1685",
+  SamuraiSpecter = "1492",
+  WhiteLady = "1630",
+  RSX0806 = "1623",
+  LadyTanee = "1688",
+  EgnigemCenia = "1658",
+  LordKnightSeyren = "1646",
+  AssassinCrossEremes = "1647",
+  WhitesmithHarword = "1648",
+  HighPriestMagaleta = "1649",
+  SniperShecil = "1650",
+  HighWizardKatrinn = "1651",
   // LordOfDeath = "1373",
-  KielD01 = '1734',
-  Detale = '1719',
-  ValkyrieRandgris = '1751',
-  Atroce = '1785',
-  GloomUnderNight = '1768'
+  KielD01 = "1734",
+  Detale = "1719",
+  ValkyrieRandgris = "1751",
+  Atroce = "1785",
+  GloomUnderNight = "1768",
 }
 
 /** mvp 配置数据 */
@@ -81,11 +81,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 埃及王
   [EnumMvpIndex.AmonRa]: {
     id: EnumMvpIndex.AmonRa,
-    name_EN: 'AmonRa',
-    name_CN: '古埃及王',
-    name_map: 'Amon Ra',
-    name_momo: 'AmonRa',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1511.gif',
+    name_EN: "AmonRa",
+    name_CN: "古埃及王",
+    name_map: "Amon Ra",
+    name_momo: "AmonRa",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1511.gif",
     credibility: false, // 未和gm确认
     respawn_map: {
       moc_pryd06: {
@@ -97,11 +97,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 巴风特
   [EnumMvpIndex.Baphomet]: {
     id: EnumMvpIndex.Baphomet,
-    name_EN: 'Baphomet',
-    name_CN: '巴风特',
-    name_map: 'Baphomet',
-    name_momo: 'Baphomet',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1039.gif',
+    name_EN: "Baphomet",
+    name_CN: "巴风特",
+    name_map: "Baphomet",
+    name_momo: "Baphomet",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1039.gif",
     credibility: true,
     respawn_map: {
       prt_maze03: {
@@ -117,11 +117,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 黑暗领主
   [EnumMvpIndex.DarkLord]: {
     id: EnumMvpIndex.DarkLord,
-    name_EN: 'DarkLord',
-    name_CN: '黑暗领主',
-    name_map: 'Dark Lord',
-    name_momo: 'DarkLord',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1272.gif',
+    name_EN: "DarkLord",
+    name_CN: "黑暗领主",
+    name_map: "Dark Lord",
+    name_momo: "DarkLord",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1272.gif",
     credibility: true,
     respawn_map: {
       gl_chyard: {
@@ -137,18 +137,18 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 死灵
   [EnumMvpIndex.Doppelganger]: {
     id: EnumMvpIndex.Doppelganger,
-    name_EN: 'Doppelganger',
-    name_CN: '死灵',
-    name_map: 'Doppelganger',
-    name_momo: 'Doppelganger',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1046.gif',
+    name_EN: "Doppelganger",
+    name_CN: "死灵",
+    name_map: "Doppelganger",
+    name_momo: "Doppelganger",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1046.gif",
     credibility: true,
     respawn_map: {
       gef_dun02: {
         time_lower: min(120),
         time_upper: min(150),
       },
-      gld_dun2: {
+      gld_dun02: {
         time_lower: min(480),
         time_upper: min(490),
       },
@@ -157,11 +157,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 德古拉男爵
   [EnumMvpIndex.Dracula]: {
     id: EnumMvpIndex.Dracula,
-    name_EN: 'Dracula',
-    name_CN: '德古拉男爵',
-    name_map: 'Dracula',
-    name_momo: 'Dracula',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1389.gif',
+    name_EN: "Dracula",
+    name_CN: "德古拉男爵",
+    name_map: "Dracula",
+    name_momo: "Dracula",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1389.gif",
     credibility: false, // 用的pre re数据
     respawn_map: {
       gef_dun01: {
@@ -173,11 +173,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 海盗船长
   [EnumMvpIndex.Drake]: {
     id: EnumMvpIndex.Drake,
-    name_EN: 'Drake',
-    name_CN: '海盗船长',
-    name_map: 'Drake',
-    name_momo: 'Drake',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1112.gif',
+    name_EN: "Drake",
+    name_CN: "海盗船长",
+    name_map: "Drake",
+    name_momo: "Drake",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1112.gif",
     credibility: true,
     respawn_map: {
       treasure02: {
@@ -189,11 +189,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 虎王
   [EnumMvpIndex.Eddga]: {
     id: EnumMvpIndex.Eddga,
-    name_EN: 'Eddga',
-    name_CN: '虎王',
-    name_map: 'Eddga',
-    name_momo: 'Eddga',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1115.gif',
+    name_EN: "Eddga",
+    name_CN: "虎王",
+    name_map: "Eddga",
+    name_momo: "Eddga",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1115.gif",
     credibility: true,
     respawn_map: {
       pay_fild11: {
@@ -209,11 +209,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 卡仑
   [EnumMvpIndex.Garm]: {
     id: EnumMvpIndex.Garm,
-    name_EN: 'Garm',
-    name_CN: '卡仑',
-    name_map: 'Garm',
-    name_momo: 'Hatii',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1252.gif',
+    name_EN: "Garm",
+    name_CN: "卡仑",
+    name_map: "Garm",
+    name_momo: "Hatii",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1252.gif",
     credibility: true,
     respawn_map: {
       xmas_fild01: {
@@ -225,11 +225,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 黄金虫
   [EnumMvpIndex.GoldenThiefBug]: {
     id: EnumMvpIndex.GoldenThiefBug,
-    name_EN: 'GoldenThiefBug',
-    name_CN: '黄金虫',
-    name_map: 'Golden Thief Bug',
-    name_momo: 'GoldenThiefBug',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1086.gif',
+    name_EN: "GoldenThiefBug",
+    name_CN: "黄金虫",
+    name_map: "Golden Thief Bug",
+    name_momo: "GoldenThiefBug",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1086.gif",
     credibility: true,
     respawn_map: {
       prt_sewb4: {
@@ -241,11 +241,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 冰暴骑士
   [EnumMvpIndex.KnightOfWindstorm]: {
     id: EnumMvpIndex.KnightOfWindstorm,
-    name_EN: 'KnightOfWindstorm',
-    name_CN: ' 冰暴骑士',
-    name_map: 'Knight of Windstorm',
-    name_momo: 'KnightOfWindstorm',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1251.gif',
+    name_EN: "KnightOfWindstorm",
+    name_CN: " 冰暴骑士",
+    name_map: "Knight of Windstorm",
+    name_momo: "KnightOfWindstorm",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1251.gif",
     credibility: true,
     respawn_map: {
       xmas_dun02: {
@@ -257,18 +257,18 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 蚁后
   [EnumMvpIndex.Maya]: {
     id: EnumMvpIndex.Maya,
-    name_EN: 'Maya',
-    name_CN: '蚁后',
-    name_map: 'Maya',
-    name_momo: 'Maya',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1147.gif',
+    name_EN: "Maya",
+    name_CN: "蚁后",
+    name_map: "Maya",
+    name_momo: "Maya",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1147.gif",
     credibility: true,
     respawn_map: {
       anthell02: {
         time_lower: min(60),
         time_upper: min(90),
       },
-      gld_dun3: {
+      gld_dun03: {
         time_lower: min(480),
         time_upper: min(490),
       },
@@ -277,11 +277,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 蜂后
   [EnumMvpIndex.Mistress]: {
     id: EnumMvpIndex.Mistress,
-    name_EN: 'Mistress',
-    name_CN: '蜂后',
-    name_map: 'Mistress',
-    name_momo: 'Mistress',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1059.gif',
+    name_EN: "Mistress",
+    name_CN: "蜂后",
+    name_map: "Mistress",
+    name_momo: "Mistress",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1059.gif",
     credibility: false,
     respawn_map: {
       mjolnir_04: {
@@ -293,11 +293,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 月夜猫
   [EnumMvpIndex.MoonlightFlower]: {
     id: EnumMvpIndex.MoonlightFlower,
-    name_EN: 'MoonlightFlower',
-    name_CN: '月夜猫',
-    name_map: 'Moonlight',
-    name_momo: 'Moonlight Flower ',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1150.gif',
+    name_EN: "MoonlightFlower",
+    name_CN: "月夜猫",
+    name_map: "Moonlight",
+    name_momo: "Moonlight Flower ",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1150.gif",
     credibility: true,
     respawn_map: {
       pay_dun04: {
@@ -309,11 +309,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 兽人英雄
   [EnumMvpIndex.OrcHero]: {
     id: EnumMvpIndex.OrcHero,
-    name_EN: 'OrcHero',
-    name_CN: '兽人英雄',
-    name_map: 'Orc Hero',
-    name_momo: 'OrcHero',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1087.gif',
+    name_EN: "OrcHero",
+    name_CN: "兽人英雄",
+    name_map: "Orc Hero",
+    name_momo: "OrcHero",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1087.gif",
     credibility: true,
     respawn_map: {
       gef_fild14: {
@@ -329,11 +329,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 兽人酋长
   [EnumMvpIndex.OrcLord]: {
     id: EnumMvpIndex.OrcLord,
-    name_EN: 'OrcLord',
-    name_CN: '兽人酋长',
-    name_map: 'Orc Lord',
-    name_momo: 'OrcLord',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1190.gif',
+    name_EN: "OrcLord",
+    name_CN: "兽人酋长",
+    name_map: "Orc Lord",
+    name_momo: "OrcLord",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1190.gif",
     credibility: true,
     respawn_map: {
       orcsdun02: {
@@ -345,11 +345,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 俄赛里斯
   [EnumMvpIndex.Osiris]: {
     id: EnumMvpIndex.Osiris,
-    name_EN: 'Osiris',
-    name_CN: '俄赛里斯',
-    name_map: 'Osiris',
-    name_momo: 'Osiris',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1038.gif',
+    name_EN: "Osiris",
+    name_CN: "俄赛里斯",
+    name_map: "Osiris",
+    name_momo: "Osiris",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1038.gif",
     credibility: true,
     respawn_map: {
       moc_pryd04: {
@@ -361,11 +361,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 法老王
   [EnumMvpIndex.Pharaoh]: {
     id: EnumMvpIndex.Pharaoh,
-    name_EN: 'Pharaoh',
-    name_CN: '法老王',
-    name_map: 'Pharaoh',
-    name_momo: 'Pharaoh',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1157.gif',
+    name_EN: "Pharaoh",
+    name_CN: "法老王",
+    name_map: "Pharaoh",
+    name_momo: "Pharaoh",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1157.gif",
     credibility: true,
     respawn_map: {
       in_sphinx5: {
@@ -377,11 +377,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 皮里恩
   [EnumMvpIndex.Phreeoni]: {
     id: EnumMvpIndex.Phreeoni,
-    name_EN: 'Phreeoni',
-    name_CN: '皮里恩',
-    name_map: 'Phreeoni',
-    name_momo: 'Phreeoni',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1159.gif',
+    name_EN: "Phreeoni",
+    name_CN: "皮里恩",
+    name_map: "Phreeoni",
+    name_momo: "Phreeoni",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1159.gif",
     credibility: true,
     respawn_map: {
       anthell01: {
@@ -393,11 +393,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 乌龟将军
   [EnumMvpIndex.TurtleGeneral]: {
     id: EnumMvpIndex.TurtleGeneral,
-    name_EN: 'TurtleGeneral',
-    name_CN: '乌龟将军',
-    name_map: 'Turtle General',
-    name_momo: 'TurtleGeneral',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1312.gif',
+    name_EN: "TurtleGeneral",
+    name_CN: "乌龟将军",
+    name_map: "Turtle General",
+    name_momo: "TurtleGeneral",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1312.gif",
     credibility: true,
     respawn_map: {
       tur_dun04: {
@@ -409,11 +409,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 墨蛇君
   [EnumMvpIndex.EvilSnakeLord]: {
     id: EnumMvpIndex.EvilSnakeLord,
-    name_EN: 'EvilSnakeLord',
-    name_CN: '墨蛇君',
-    name_map: 'Evil Snake Lord',
-    name_momo: 'Evil Snake Lord',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1418.gif',
+    name_EN: "EvilSnakeLord",
+    name_CN: "墨蛇君",
+    name_map: "Evil Snake Lord",
+    name_momo: "Evil Snake Lord",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1418.gif",
     credibility: true,
     respawn_map: {
       gon_dun03: {
@@ -425,11 +425,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 塔奥群卡
   [EnumMvpIndex.TaoGunka]: {
     id: EnumMvpIndex.TaoGunka,
-    name_EN: 'TaoGunka',
-    name_CN: '塔奥群卡',
-    name_map: 'Tao Gunka',
-    name_momo: 'Tao Gunka',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1583.gif',
+    name_EN: "TaoGunka",
+    name_CN: "塔奥群卡",
+    name_map: "Tao Gunka",
+    name_momo: "Tao Gunka",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1583.gif",
     credibility: true,
     respawn_map: {
       beach_dun: {
@@ -441,11 +441,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // 贝思波
   [EnumMvpIndex.Vesper]: {
     id: EnumMvpIndex.Vesper,
-    name_EN: 'Vesper',
-    name_CN: '贝思波',
-    name_map: 'Vesper',
-    name_momo: 'Vesper',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1685.gif',
+    name_EN: "Vesper",
+    name_CN: "贝思波",
+    name_map: "Vesper",
+    name_momo: "Vesper",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1685.gif",
     credibility: true,
     respawn_map: {
       jupe_core: {
@@ -456,11 +456,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   },
   [EnumMvpIndex.SamuraiSpecter]: {
     id: EnumMvpIndex.SamuraiSpecter,
-    name_EN: 'Samurai Specter',
-    name_CN: '元灵武士',
-    name_map: 'Samurai Specter',
-    name_momo: 'Samurai Specter',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1492.gif',
+    name_EN: "Samurai Specter",
+    name_CN: "元灵武士",
+    name_map: "Samurai Specter",
+    name_momo: "Samurai Specter",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1492.gif",
     credibility: true,
     respawn_map: {
       ama_dun03: {
@@ -471,11 +471,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   },
   [EnumMvpIndex.WhiteLady]: {
     id: EnumMvpIndex.WhiteLady,
-    name_EN: 'White Lady',
-    name_CN: '白素贞',
-    name_map: 'White Lady',
-    name_momo: 'White Lady',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1630.gif',
+    name_EN: "White Lady",
+    name_CN: "白素贞",
+    name_map: "White Lady",
+    name_momo: "White Lady",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1630.gif",
     credibility: true,
     respawn_map: {
       lou_dun03: {
@@ -486,11 +486,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   },
   [EnumMvpIndex.RSX0806]: {
     id: EnumMvpIndex.RSX0806,
-    name_EN: 'RSX-0806',
-    name_CN: 'RSX-0806',
-    name_map: 'RSX-0806',
-    name_momo: 'RSX-0806',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1623.gif',
+    name_EN: "RSX-0806",
+    name_CN: "RSX-0806",
+    name_map: "RSX-0806",
+    name_momo: "RSX-0806",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1623.gif",
     credibility: true,
     respawn_map: {
       ein_dun02: {
@@ -501,11 +501,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   },
   [EnumMvpIndex.LadyTanee]: {
     id: EnumMvpIndex.LadyTanee,
-    name_EN: 'Lady Tanee',
-    name_CN: '嗒呢小姐',
-    name_map: 'Lady Tanee',
-    name_momo: 'Lady Tanee',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1688.gif',
+    name_EN: "Lady Tanee",
+    name_CN: "嗒呢小姐",
+    name_map: "Lady Tanee",
+    name_momo: "Lady Tanee",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1688.gif",
     credibility: true,
     respawn_map: {
       ayo_dun02: {
@@ -516,11 +516,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   },
   [EnumMvpIndex.EgnigemCenia]: {
     id: EnumMvpIndex.EgnigemCenia,
-    name_EN: 'Egnigem Cenia',
-    name_CN: '暗●剑士 赛尼亚',
-    name_map: 'Egnigem Cenia',
-    name_momo: 'Egnigem Cenia',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1658.gif',
+    name_EN: "Egnigem Cenia",
+    name_CN: "暗●剑士 赛尼亚",
+    name_map: "Egnigem Cenia",
+    name_momo: "Egnigem Cenia",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1658.gif",
     credibility: true,
     respawn_map: {
       lhz_dun02: {
@@ -621,11 +621,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   // },
   [EnumMvpIndex.KielD01]: {
     id: EnumMvpIndex.KielD01,
-    name_EN: 'Kiel D-01',
-    name_CN: '基尔 D-01',
-    name_map: 'Kiel D-01',
-    name_momo: 'Kiel D-01',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1734.gif',
+    name_EN: "Kiel D-01",
+    name_CN: "基尔 D-01",
+    name_map: "Kiel D-01",
+    name_momo: "Kiel D-01",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1734.gif",
     credibility: true,
     respawn_map: {
       kh_dun02: {
@@ -636,11 +636,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   },
   [EnumMvpIndex.Detale]: {
     id: EnumMvpIndex.Detale,
-    name_EN: 'Detale',
-    name_CN: '迪塔勒泰晤勒斯',
-    name_map: 'Detale',
-    name_momo: 'Detale',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1719.gif',
+    name_EN: "Detale",
+    name_CN: "迪塔勒泰晤勒斯",
+    name_map: "Detale",
+    name_momo: "Detale",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1719.gif",
     credibility: true,
     respawn_map: {
       abyss_03: {
@@ -651,11 +651,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   },
   [EnumMvpIndex.ValkyrieRandgris]: {
     id: EnumMvpIndex.ValkyrieRandgris,
-    name_EN: 'Valkyrie Randgris',
-    name_CN: '兰特克力斯',
-    name_map: 'Valkyrie Randgris',
-    name_momo: 'Valkyrie Randgris',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1751.gif',
+    name_EN: "Valkyrie Randgris",
+    name_CN: "兰特克力斯",
+    name_map: "Valkyrie Randgris",
+    name_momo: "Valkyrie Randgris",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1751.gif",
     credibility: true,
     respawn_map: {
       odin_tem03: {
@@ -666,11 +666,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   },
   [EnumMvpIndex.Atroce]: {
     id: EnumMvpIndex.Atroce,
-    name_EN: 'Atroce',
-    name_CN: '阿特罗斯',
-    name_map: 'Atroce',
-    name_momo: 'Atroce',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1785.gif',
+    name_EN: "Atroce",
+    name_CN: "阿特罗斯",
+    name_map: "Atroce",
+    name_momo: "Atroce",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1785.gif",
     credibility: true,
     respawn_map: {
       ra_fild02: {
@@ -681,15 +681,15 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
         time_lower: min(180),
         time_upper: min(190),
       },
-      ra_fild04:{
+      ra_fild04: {
         time_lower: min(300),
         time_upper: min(310),
       },
-      ve_fild01:{
+      ve_fild01: {
         time_lower: min(180),
         time_upper: min(190),
       },
-      ve_fild02:{
+      ve_fild02: {
         time_lower: min(360),
         time_upper: min(370),
       },
@@ -697,11 +697,11 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
   },
   [EnumMvpIndex.GloomUnderNight]: {
     id: EnumMvpIndex.GloomUnderNight,
-    name_EN: 'Gloom Under Night',
-    name_CN: '影魔',
-    name_map: 'Gloom Under Night',
-    name_momo: 'Gloom Under Night',
-    imgUrl: 'https://file5s.ratemyserver.net/mobs/1768.gif',
+    name_EN: "Gloom Under Night",
+    name_CN: "影魔",
+    name_map: "Gloom Under Night",
+    name_momo: "Gloom Under Night",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1768.gif",
     credibility: true,
     respawn_map: {
       ra_san05: {
