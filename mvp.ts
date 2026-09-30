@@ -128,7 +128,7 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
         time_lower: min(60),
         time_upper: min(70),
       },
-      gld_dun4: {
+      gld_dun04: {
         time_lower: min(480),
         time_upper: min(490),
       },
