@@ -38,6 +38,9 @@ export enum EnumMvpIndex {
   ValkyrieRandgris = "1751",
   Atroce = "1785",
   GloomUnderNight = "1768",
+  FallingBishop = "1871",
+  Beelzebub = "1874",
+  Ifrit="1832"
 }
 
 /** mvp 配置数据 */
@@ -707,6 +710,54 @@ const config: Partial<Record<EnumMvpIndex, MvpConfig>> = {
       ra_san05: {
         time_lower: min(300),
         time_upper: min(310),
+      },
+    },
+  },
+  // 堕落的大神官希巴姆
+  [EnumMvpIndex.FallingBishop]: {
+    id: EnumMvpIndex.FallingBishop,
+    name_EN: "Falling Bishop",
+    name_CN: "堕落的大神官 希巴姆",
+    name_map: "Falling Bishop",
+    name_momo: "Falling Bishop",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1871.gif",
+    credibility: true,
+    respawn_map: {
+      abbey02: {
+        time_lower: min(120),
+        time_upper: min(130),
+      },
+    },
+  },
+  // 贝雷杰
+  [EnumMvpIndex.Beelzebub]: {
+    id: EnumMvpIndex.Beelzebub,
+    name_EN: "Beelzebub",
+    name_CN: "贝雷杰",
+    name_map: "Beelzebub",
+    name_momo: "Beelzebub",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1874.gif",
+    credibility: true,
+    respawn_map: {
+      abbey03: {
+        time_lower: min(720),
+        time_upper: min(730),
+      },
+    },
+  },
+  // 伊夫利特
+  [EnumMvpIndex.Ifrit]: {
+    id: EnumMvpIndex.Ifrit,
+    name_EN: "Ifrit",
+    name_CN: "伊夫利特",
+    name_map: "Ifrit",
+    name_momo: "Ifrit",
+    imgUrl: "https://file5s.ratemyserver.net/mobs/1832.gif",
+    credibility: true,
+    respawn_map: {
+      thor_v03: {
+        time_lower: min(660),
+        time_upper: min(670),
       },
     },
   },
